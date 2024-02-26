@@ -1,8 +1,10 @@
+# Zad 1
 
 
-def imiona(lista):
-    for i in lista:
-        print(i)
+def czesc(name: str, surname: str) -> str:
 
-names = ['Martin', 'Tom', 'Eva','Julia','Julianna']
-imiona (names)
+    return 'Cześć ' + name + ' ' + surname+'!'
+
+
+x = czesc('Martyna', 'Michalik')
+print(x)

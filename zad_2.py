@@ -1,12 +1,8 @@
-def liczby(lista):
-    for i in range(len(lista)):
-        lista[i] = lista[i]*2
-    return lista
+# Zad 2
 
 
-numerki = [1, 2, 3, 4, 5]
-print(liczby(numerki))
+def mnozenie(x: int, y: int):
+    return x*y
 
-numerki = [1, 2, 3, 4, 5]
-numerki_2 = [number*2 for number in numerki]
-print(numerki_2)
+
+print(mnozenie(2, 3))

@@ -1,9 +1,15 @@
-def parzyste(liczby):
-    for i in range(len(liczby)):
-        if liczby[i] % 2 == 0:
-            print(liczby[i])
+# Zad 3
 
 
-numerki10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+def parzyste(liczba) -> bool:
+    if liczba % 2 == 0:
+        return True
+    else:
+        return False
 
-parzyste(numerki10)
+
+wynik = parzyste(3)
+if wynik is True:
+    print("Liczba parzysta")
+else:
+    print("Liczba nieparzysta")
