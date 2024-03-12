@@ -3,8 +3,8 @@
 
 def czesc(name: str, surname: str) -> str:
 
-    return 'Cześć ' + name + ' ' + surname+'!'
+    return "Cześć " + name + " " + surname + "!"
 
 
-x = czesc('Martyna', 'Michalik')
+x = czesc("Martyna", "Michalik")
 print(x)

@@ -1,5 +1,6 @@
 # Zad 5
 
+
 def czy_zawiera(lista: list, x: int) -> bool:
 
     if x in lista:

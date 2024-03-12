@@ -2,7 +2,7 @@
 
 
 def listy(l1: list, l2: list) -> list:
-    wynik = list(set(l1+l2))
+    wynik = list(set(l1 + l2))
     return wynik
 
 
