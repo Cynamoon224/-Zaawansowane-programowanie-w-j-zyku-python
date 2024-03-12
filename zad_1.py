@@ -1,7 +1,9 @@
 # Zad 1
 
 
-def czesc(name: str, surname: str) -> str:
+def czesc(name:
+          
+           str, surname: str) -> str:
 
     return "Cześć " + name + " " + surname + "!"
 
@@ -9,5 +11,7 @@ def czesc(name: str, surname: str) -> str:
 x = czesc
 
 
-("Martyna", "Michalik")
+("Martyna", 
+ 
+ "Michalik")
 print(x)
